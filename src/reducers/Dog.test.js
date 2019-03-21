@@ -2,7 +2,7 @@
 import reducer from './Dog';
 import { FETCH_DOG } from '../actions/Dog';
 
-describe('Control reducer tests', () => {
+describe('Dog reducer tests', () => {
   it('handles an update title action', () => {
     const state = {
       image: {}
